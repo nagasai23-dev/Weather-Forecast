@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather</title>
+    <link rel="icon" type="image/png" href="favicon_io/android-chrome-192x192.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="card">
+
+        <div class="search">
+        <input type="text" placeholder="Enter City Name" spellcheck="false">
+        <button><img src="images\search.png" alt="image icon"></button>
+        </div>
+
+        <div >
+            <p class="error">Invalid City Name</p>
+        </div>
+
+    <div class="weather">
+        <img   src="images/rain.png" alt="presnt weather" class="Weather-emoji">
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">India</h2>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png" alt="humidity-image">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col2">
+                <img src="images/wind.png" alt="wind-image">
+                <div>
+                    <p class="wind">15 Km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background:#222;
+}
+.card{
+    width:50%;
+    max-width:470px;
+    background:linear-gradient(135deg, #00feba,#5b548a);
+    color:#fff;
+    margin:50px auto;
+    border-radius:20px;
+    padding:40px 35px;
+    text-align:center;
+    box-shadow:5px 5px 5px 1px #bebdbd;
+}
+
+.search{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.search input{
+    border:0;
+    outline:0;
+    background:rgb(235, 255, 252);
+    color:rgb(85, 85, 85);
+    padding:10px 25px;
+    height:60px;
+    border-radius:30px;
+    flex:1;
+    margin-right:16px;
+    font-size:18px;
+}
+.search button{
+    border:0;
+    outline:0;
+    background:rgb(235, 255, 252);
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    cursor:pointer;
+}
+.search button:active{
+    background-color:#00feba;
+}
+.search button img{
+    width:16px;
+}
+.weather{
+    display:none;
+}
+
+.Weather-emoji{
+    width:170px; 
+    margin-top:30px;
+}
+.temp{
+     font-size:80px;
+     font-weight:500;
+     color:rgba(228, 236, 236, 0.944);
+}
+.city{
+     font-size:45px;
+     font-weight:400;
+     margin-top:-10px;
+     color:rgb(219, 219, 219)
+} 
+
+.details{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 20px;
+    margin-top:50px;
+}
+.col{
+   display:flex;
+   align-items:center;
+   text-align:left;
+}
+.col img{
+    width:40px;
+    margin-right:10px;
+}
+.col2{
+   display:flex;
+   align-items:center;
+   text-align:left;
+}
+.col2 img{
+    width:40px;
+    margin-right:10px;
+}
+
+.humidity,.wind{
+    font-size:30px;
+    margin-top:-6px;
+}
+.error{
+    margin-top:10px;
+    font-size:16px;
+    display:none;
+}
+
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 95%;
+        padding: 30px 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 80%;
+        padding: 20px;
+    }
+    .search input {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+    .weather h1 {
+        font-size: 60px;
+    }
+    .weather h2 {
+        font-size: 30px;
+    }
+}
+.col{
+    display:flex;
+    align-items:center;
+    text-align:left;
+    margin-right:10px;
+ }
+
+ 
+.wind{
+     font-size:20px;
+     margin-top:-6px;
+ }
