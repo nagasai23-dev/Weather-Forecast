@@ -1,4 +1,4 @@
-![Screenshot 2025-02-13 185524](https://github.com/user-attachments/assets/544e3d4d-27e4-4142-891b-e2ec83e5d345)🌤 Weather App ⛅
+🌤 Weather App ⛅
 A simple and responsive Weather App that provides real-time weather updates based on city input. This project fetches weather data from the OpenWeather API and displays key details like temperature, humidity, wind speed, and weather conditions with appropriate icons.
 
 🚀 Features
@@ -10,6 +10,7 @@ A simple and responsive Weather App that provides real-time weather updates base
 ✅ Keyboard Shortcut – Press Enter to search, instead of clicking the button.
 
 📸 Preview
+![Weathor Repository Interface](https://github.com/user-attachments/assets/544e3d4d-27e4-4142-891b-e2ec83e5d345)
   
 
 🛠️ Technologies Used
