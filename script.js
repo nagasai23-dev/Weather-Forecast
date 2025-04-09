@@ -1,5 +1,5 @@
 
-let apiKey='dcc9ab6a8cae4967e341cec0cde06ec9';
+let apiKey=//I remove API key for security pupose on 10/04/2025;
 
 let card=document.querySelector('.card');
 let buttonSubmit=document.querySelector('button');
